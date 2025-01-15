@@ -1,0 +1,3 @@
+# React Router Dom Route Matching Issue
+
+This repository demonstrates a common issue encountered when using React Router Dom's `Routes` component where routes may fail to match correctly despite having seemingly correct path configurations.  The example showcases a scenario where a route with a wildcard path (`/users/*`) interferes with other routes causing unexpected behavior. The solution highlights the importance of route order and potentially using exact matching.
